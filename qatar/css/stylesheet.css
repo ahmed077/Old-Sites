@@ -1,0 +1,211 @@
+/*header*/
+header{
+    margin-bottom:40px
+}
+header .image{
+    height: 300px;
+    background-image:url("../images/2015-bmw-m3-m4-images-23.jpg");
+}
+header .header-bottom span.glyphicon{
+    margin:5px;
+}
+header .header-bottom .right .white, form .white{
+    background:white;
+    border:1px solid black;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:10px;
+    height:24px;
+    line-height: 24px;
+    margin-top:6px;
+    width:100%;
+    position:relative;
+    color:#360233;
+}
+header .header-bottom .white span.glyphicon {
+    position: absolute;
+    right:0;
+    display: block;
+    top:0;
+}
+header .header-bottom .search span, aside form span.glyphicon{
+    position:absolute;
+    background:#92295c;
+    right:5px;
+    padding:6px 10px;
+}
+/*header end*/
+/* ads start*/
+.ad {
+    position: relative;
+    margin-bottom:10px;
+}
+.ad p{
+    font-size:30px;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    right:10px;
+    max-width:300px;
+    margin-bottom: 0;
+}
+.menu-title{
+    margin-bottom: 10px;
+}
+.menu-title ul li{
+    display: inline-block;
+    padding: 0 10px;
+    margin:10px 0;
+    font-size:12px;
+    line-height:12px;
+}
+.menu-title ul li:not(:last-of-type) {
+    border-right:1px solid white;
+}
+/*ads end*/
+aside, .cars{
+    margin-bottom:30px;
+}
+/*left side*/
+aside > .row:first-of-type{
+    margin-bottom: 10px;
+    position: relative;
+}
+aside > .row:first-of-type p{
+    position:absolute;
+    left:10px;
+    bottom: 0;
+    color:white;
+    font-size:30px;
+}
+aside form{
+    padding:20px 0 10px;
+    font-size:11px;
+}
+aside form p{
+    padding-left:5px;
+    margin-bottom:5px;
+}
+aside form > div{
+    margin-bottom:15px;
+    padding:0;
+}
+aside form > div a, aside form .search {
+    cursor: pointer;
+}
+aside form span.glyphicon {
+    color:#92295c;
+    position:absolute;
+    background:none;
+}
+aside form .range > div{
+    padding:0;
+}
+aside form .range > div > div {
+    margin-bottom:10px;
+}
+aside form .range > div > div label {
+    padding-left:5px;
+}
+aside form .range > div > div label:first-of-type{
+    min-width:36px;
+}
+aside form .range > div > div label:last-of-type {
+    min-width:18px;
+}
+aside form .search{
+    background:#92295c;
+    color:white;
+    font-weight: lighter;
+    height:32px;
+    line-height: 32px;
+    margin:0 10px;
+    font-size:18px;
+}
+/*left side end*/
+/*cars side*/
+.cars > .row {
+    margin-right: -25px;
+}
+.cars .holder {
+    height:250px
+}
+.cars > .row > div {
+    padding: 0 10px;
+    min-width:25%;
+}
+.cars > .row {
+    display:flex;
+    flex-wrap: wrap;
+}
+.cars .row .holder{
+    background:#eee;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    border-bottom:4px solid #360233;
+}
+.cars .row .holder .car-img{
+    height:120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cars .row .holder .car-img + p {
+    font-size:20px;
+}
+.cars .row .holder>p {
+    padding-top:10px;
+}
+
+.cars .car-type span:first-of-type{
+    border-right:1px solid #360233;
+    padding-right:5px;
+}
+.cars .car-type span{
+    max-width:50%;
+    font-size:10px
+}
+.cars .car-type + div > div:last-of-type {
+    float:right;
+    width:auto
+}
+.cars .car-type + div span {
+    display:block;
+    float:left;
+    font-size:10px;
+    line-height: 10px;
+}
+.cars .car-type + div span + span {
+    margin-left:5px;
+}
+/*cars side end*/
+/*Media Queries*/
+@media(max-width:768px) {
+    .cars holder {
+        height:350px
+    }
+    .cars > .row {
+        margin-left:-25px;
+    }
+    .ad p {
+        font-size:20px;
+        max-width:200px;
+    }
+}
+@media (min-width:630px) and (max-width:768px){
+    aside > .row:first-of-type p {    
+        left:65px;
+        max-width:250px;
+    }
+}
+@media(max-width:630px) {
+    aside form .range>div {
+        width:100%;
+    }
+}
+@media(max-width:510px) {
+    .ad p {
+        font-size:20px;
+        max-width:100%;
+    }
+}

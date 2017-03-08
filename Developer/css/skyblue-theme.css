@@ -1,0 +1,18 @@
+.skills .chart div:nth-of-type(2n) span, header li:first-of-type .ico, .ico:hover, .carousel .indicator li:hover, .carousel .indicator .active{
+    background:#6c9ce4;   
+}
+.ico:hover .ico-top, header li:first-of-type .ico-top{
+    border-top-color:#6c9ce4;
+    border-right-color:#6c9ce4;
+}
+.blue, .work .active, .carousel .right, .carousel .left, h2:hover{
+    color:#6c9ce4;
+}
+.work li:hover{
+    color:#6c9ce4;
+    background-image:
+        linear-gradient(45deg, #6c9ce4 50%, transparent 50%),linear-gradient(-45deg, transparent 50%, #6c9ce4 50%);
+}
+form input:focus, textarea:focus{
+    border:1px solid #6c9ce4;
+}

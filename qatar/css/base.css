@@ -1,0 +1,130 @@
+/*some reset*/
+a, a:hover, a:focus, a:active{
+    color:inherit;
+    text-decoration: none;
+}
+body{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:#360233;
+    font-family:Gotham, Tahoma, sans-serif;
+}
+/*main background color*/
+.bg-v{
+    background:#360233;
+    color:white;
+}
+/*header start*/
+header .header-top, header .header-bottom, .menu-title, footer .footer-top{
+    font-size:12px;
+    line-height: 35px;
+    padding:0 15px;
+    height:35px;
+}
+header ul{
+    color:#360233;
+    position:absolute;
+    opacity: .9
+}
+header ul.hide{
+    display:none;
+}
+header .image{
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+header .image .logo{
+    position:absolute;
+    right:20px;
+    top:50px;
+}
+header .header-bottom span.glyphicon{
+    margin:5px;
+}
+header .header-bottom .right .white, form .white{
+    background:white;
+    border:1px solid black;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:10px;
+    height:24px;
+    line-height: 24px;
+    margin-top:6px;
+    width:100%;
+    position:relative;
+    color:#360233;
+}
+header .header-bottom .white span.glyphicon {
+    position: absolute;
+    right:0;
+    display: block;
+    top:0;
+}
+header .header-bottom .search span, aside form span.glyphicon{
+    position:absolute;
+    background:#92295c;
+    right:5px;
+    padding:6px 10px;
+}
+header .header-bottom a, header .header-bottom .search span {
+    cursor: pointer;
+}
+/*end header*/
+
+/*footer*/
+footer .footer-top{
+    text-transform: none;
+    padding:5px 0;
+    height:auto;
+    position:relative;
+}
+footer .footer-top .triangle{
+    width:0;
+    bottom: -20px;
+    border-top:20px solid #360233;
+    border-right:20px solid transparent;
+    border-left:20px solid transparent;
+    border-bottom:0;
+    position:absolute;
+    left:50%;
+    margin-left:-20px;
+}
+footer .footer-mid{
+    padding:30px 0;
+    position:relative;
+}
+footer .footer-mid h4{
+    color:#92295c
+}
+footer .footer-mid .triangle{
+    width:0;
+    border-top:30px solid #fff;
+    border-right:30px solid transparent;
+    border-left:30px solid transparent;
+    border-bottom:0;
+    position:absolute;
+    left:50%;
+    margin-left:-30px;
+    bottom:-29px;
+}
+footer .footer-bottom{
+    padding:30px 0 100px;
+}
+footer .footer-bottom .social i{
+    background:white;
+    border-radius:50%;
+    height:35px;
+    width:35px;
+    color:#360233;
+    line-height: 35px;
+}
+footer .footer-bottom .container {
+    padding-bottom:20px;
+    border-bottom:1px solid white;
+}
+footer .footer-bottom p{
+    color:white;
+    margin-top:10px;
+    font-size:6px;
+}

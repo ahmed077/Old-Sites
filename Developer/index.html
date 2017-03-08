@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my portfolio website, I publish my projects here to be a reference to all who ever want to see it. It's nothing but a live example of my work HTML/CSS coding and responsiveness">
+    <title>Ahmed Magdy | Web Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../libs/font-awesome.min.css">
+    <link rel="stylesheet" href="css/skyblue-theme.css">
+</head>
+<body>
+    <!-- Start Header -->
+      <div style='position:fixed;top:50px;left:0;z-index:9999999'>
+    <a href="../index.html"><div class="btn btn-danger" style='background:red;color:white;padding:7px 15px;border:1px solid black'>Back To Main Page</div></a>
+</div>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <div class="ico">
+                            <div class="ico-top"></div>
+                            <a href="#"><div>Home</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ico">
+                            <div class="ico-top"></div>
+                            <a href="#work"><div>Works</div></a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="ico">
+                            <div class="ico-top"></div>
+                            <a href="#contact"><div>Get in Touch</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ico">
+                            <div class="ico-top"></div>
+                            <a href="#skills"><div>skills</div></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ico gallery">
+                            <div class="ico-top"></div>
+                            <a href="gallery.html"><div>Gallery</div></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Ahmed Magdy <br><span class="blue">Web Developer</span></h1>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Welcome Section -->
+    <section class="welcome">
+        <h2>welcome</h2>
+        <p>I'd like to welcome all my dear visitors here. <br> It's not the best site, but I'll try to make it one. <br> Welcome again to my first portfolio site. <br>
+        I'd like to ask you to give me your feedback if we've worked together, or your opinion if you haven't dealt with me before. <br>
+        They both are important to me. 
+        </p>
+    </section>
+    <!-- End Welcome Section -->
+    <!-- Start About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>My name is Ahmed. <br>
+        I'm a web developer with growing skills as the skills has no limits so I keep moving forward towards mastering them all. <br>
+        My skills are now limited to just a few, but as the time goes by they will be increasing. <br>
+        For me, Experience and clients'/colleagues' satisfaction of my work are the most important things, everything else is not important. <br>
+        Thank you
+        </p>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Caousel Section -->
+    <div class="carousel">
+
+        <div class="itemset-1 active">
+            <div class="item-holder">
+                <div data-value="1" class="item item-1 active">
+                   <img src="images/carousel/FirstApp.jpg" alt="first pic">
+                   <div class="visit blue"><a href="Sites/FirstApp/index.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+                <div data-value="2" class="item item-1">
+                   <img src="images/carousel/SecondApp.png" alt="second pic">
+                   <div class="visit blue"><a href="Sites/SecondApp/index.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+                <div data-value="3" class="item item-1">
+                   <img src="images/carousel/p2.png" alt="third pic">
+                   <div class="visit blue"><a href="Sites/Task5/index.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+                <div data-value="4" class="item item-1">
+                   <img src="images/carousel/MindUtopia.jpg" alt="fourth pic">
+                   <div class="visit blue"><a href="Sites/MindUtopia/Mind.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+
+            </div>
+            <ul class="indicator item-indicator-1">
+                <li data-target="1" class="active"></li>
+                <li data-target="2"></li>
+                <li data-target="3"></li>
+                <li data-target="4"></li>
+            </ul>
+        </div>
+        <div class="itemset-2">
+            <div class="item-holder">
+                <div data-value="1" class="item item-2 active">
+                   <div class="caption">2D 4 Shapes CSS3</div>
+                   <div class="visit blue"><a href="Carousel/4shapes/index.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+                <div data-value="2" class="item item-2">
+                   <div class="caption">3D 6 Shapes CSS3</div>
+                   <div class="visit blue"><a href="Carousel/6shapes/carousel.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+                <div data-value="3" class="item item-2">
+                   <div class="caption">2D 9 circles CSS3 + JS</div>
+                   <div class="visit blue"><a href="Carousel/Circle/index.html"><i class="fa fa-eye" aria-hidden="true"></i>View</a></div>
+                </div>
+            </div>
+            <ul class="indicator item-indicator-2">
+                <li data-target="1" class="active"></li>
+                <li data-target="2"></li>
+                <li data-target="3"></li>
+            </ul>
+        </div>
+        <i class="fa fa-window-close-o fa-2x close" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right fa-2x right" aria-hidden="true"></i>
+        <i class="fa fa-chevron-left fa-2x left" aria-hidden="true"></i>
+    </div>
+    <!-- End Caousel Section -->
+    <div class="clear"></div>
+    <!-- Start Work Section -->
+    <section class="work" id="work">
+        <h2>works</h2>
+        <h4>Click to Preview</h4>
+        <ul>
+            <li class="active" data-value=".itemset-1">PSD to HTML/CSS</li>
+            <li data-value=".itemset-2">Carousel</li>
+            <li data-value=".itemset-3">Canvas Draw</li>
+            <li data-value=".itemset-4">Animation</li>
+            <li data-value=".itemset-5">Small parts such  as menus..etc</li>    
+        </ul>
+    </section>
+    <!-- End Work Section -->
+    <div class="clear"></div>
+    <!-- Start Skills Section -->
+    <section class="skills" id="skills">
+        <h2>skills</h2>
+        <h4>technical skills</h4>
+        <div class="chart">
+            <div>
+                <span data-value="80">HTML<span></span></span>
+            </div>
+            <div>
+                <span data-value="90">CSS<span></span></span>
+            </div>
+            <div>
+                <span data-value="80">jQuery<span></span></span>
+            </div>
+            <div>
+                <span data-value="70">JavaScript<span></span></span>
+            </div>
+            <div>
+                <span data-value="75">Bootstrap<span></span></span>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills Section -->
+    <!-- Start Contact Section -->
+    <section class="contact" id="contact">
+        <h2>get in touch</h2>
+        <h4>SEND ME A MESSAGE</h4>
+        <form>
+            <input type="text" name="name" placeholder="Your Name: ">
+            <input type="text" name="email" placeholder="Your Email: ">
+            <textarea name="message" placeholder="Your Message: "></textarea>
+            <div class="ico"><div class="ico-top"></div>Send</div>
+        </form>
+        <div class="contact-details">
+            <h4>contact details</h4>
+            <div>
+                <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                <div>
+                    <p>Email Address: </p>
+                    <p class="blue">Don.Zero23@Gmail.Com</p>
+                </div>
+            </div>
+            <div>
+                <i class="fa fa-skype fa-4x" aria-hidden="true"></i>
+                <div>
+                    <p>Skype: </p>
+                    <p class="blue">mido.mix44</p>
+                </div>
+            </div>
+            <div>
+                <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+                <div>
+                    <p>Facebook: </p>
+                    <p class="blue"><a target="_blank" href="http://www.facebook.com/mad232">Ahmed Magdy</a></p>
+                </div>
+            </div>
+            <div>
+                <i class="fa fa-phone fa-4x" aria-hidden="true"></i>
+                <div>
+                    <p>Phone Number: </p>
+                    <p class="blue">+201120850804</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+    <div class="clear"></div>    
+    <!-- Start Help Section -->
+    <section class="help">
+       <h2>how i can help?</h2>
+        <div>
+            <div class="img">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+            </div>
+            <div>
+                <ul>
+                    <li>Converting as much PSDs as you want</li>
+                    <li>Responsive Design across all devices</li>
+                    <li>W3C Validated Code</li>
+                    <li>Working with team or indvidually</li>
+                    <li>Fast job delivery with high quality</li>
+                    <li>Ability of working for long hours</li>
+                </ul>
+            </div>
+        </div>        
+        <div class="clear"></div>
+    </section>
+    <!-- End Help Section -->
+    <!-- Start Back to Top Button -->  
+    <div class="ico top">
+        <div class="ico-top"></div>
+        <i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>
+    </div>
+    <!-- End Back to Top Button -->
+    <div class="clear"></div>    
+    <!-- Start Tool Box -->
+    <div class="tools">
+        <span data-value="css/skyblue-theme.css" style="background:#6c9ce4"></span>
+        <span data-value="css/crimson-theme.css" style="background:crimson"></span>
+    </div>
+    <!-- End Tool Box -->
+<!--    Start Loading Screen-->
+    <div class="loading">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+<!--    End Loading Screen-->
+    <!-- Start Footer -->
+    <footer>
+        <p class="last">2016 &copy; | Ahmed Magdy</p>
+    </footer>
+    <!-- End Footer -->
+    <span class="update">Updated 30/10/2016</span>
+<script src="../libs/jquery.min.js"></script>
+<script src="../libs/jquery.nicescroll.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
